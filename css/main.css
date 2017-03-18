@@ -3,7 +3,8 @@ color: red;
 text-align: center;
 width: 400px;
 background: yellow;
-  margin: 10px auto;
+margin: 0 auto;
+padding 10px 0;
 }
 
 h3 {
