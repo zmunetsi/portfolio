@@ -1,0 +1,70 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Rating App</title>
+	
+	<!--Google fonts-->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine|Proza Libre|Kavoon|Asul">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	 integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--External css-->
+	<link href = "{%static 'photoratingapp.css'%}" type = "text/css" rel = "stylesheet">
+		<!--link to jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	
+  </head>
+  <body>
+    <div class = "container">
+	  <div>
+	    <nav class = "navbar panel">
+		  <ul class = "nav navbar-nav ">
+		    <li></li>
+			<li></li>
+		  </ul>
+		</nav>
+	  </div>
+	    
+	  <div class = "intro">
+	    <h1>PhotoRating App</h1>
+		<h2></h2>
+		<p>You can upvote or down vote an image</p>
+		<p>Click the buttons to downvote or upvote images,The other button shows how many people have clicked and the number of votes on the image.</p>
+		<p>Leave  comment in the box to support your vote.</p>
+	  </div>
+	  <div class = "app">
+	  
+	   <div id = "imgbuttons">
+			<div>
+			 <img class = "img-responsive "src = "{%static 'assets/party circle.jpg'%}" alt = "party image">
+			</div>
+			<div id = "ratingbtn">
+			  <button  class = "btn btn-action btn-sm glyphicon glyphicon-thumbs-up" id = "upvotebtn">RateUp</button>
+			  <button class = "btn btn-action btn-sm glyphicon glyphicon-thumbs-down" id = "downvotebtn">RateDown</button>
+			  <button class = "btn btn-action btn-sm glyphicon glyphicon-heart" id = "favbtn">Favourite</button>
+			</div>
+	   </div>
+	    
+		<div class = "counter">
+		 <h4>Counters</h4>
+		  <button id = "rateup" class = "square glyphicon glyphicon-thumbs-up">0</button>
+		  <button id= "ratedown" class = "square glyphicon glyphicon-thumbs-down">0</button>
+		</div>
+	    <div class = "comment">
+		  <form id = "commentform" action = "#" method = "post">
+		    <h3><button id = "commentbtn" class= "glyphicon glyphicon-comment">0</button>Comment:</h3>
+		    <input type = "text" id= "firstinput">
+		  </form><br>
+		  <button id = "submitbtn" class = "btn btn-warning btn-sm">Post</button>
+		</div>
+		
+	  </div><hr>
+	  <button onclick = "alert('This Window will close'),window.close()" class="btn btn-info pull-right">Close Window</button><br><br>
+	</div>
+	<script type = "text/javascript" src = "{%static 'photoapp.js'%}"></script>
+  </body>
+</html>
