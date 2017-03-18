@@ -1,6 +1,8 @@
 body{
 color: red;
 text-align: center;
+width: 400px;
+border: 1px solid black;
 }
 
 h3 {
