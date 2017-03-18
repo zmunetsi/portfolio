@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>Munetsi Zunguzira Webportfolio</title>
-    <link type = 'text/css' rel = 'stylesheet' href = 'css/main.css'>
+    <title>Webfolio fo Munetsi</title>
+	<link rel="stylesheet" type="text/css" href="static/myStyles.css">
+		<!--link to jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	
   </head>
-<body>
-  <div class = 'first'>
-  <h2>Munetsi Zunguzira</h2>
-  <h3>Full Stack Web Developer</h3>
-  <h3>Contact me</h3>
-  Name:<input type = 'text'><br><br>
-  Email:<input type = 'text'><br><br>
-  Message.<br>
-  <input id = 'textarea' type = 'textarea'>
-  </div>
-</body>
+  
+  <body>
+    <main>
+	<nav>
+		  <ul>
+		    <div id = "logo">Munetsi Zunguzira</div>
+			<div id = "menu">
+			    <div>
+				  <li ><a href = "#profile">Profile</a> |</li>
+				</div>
+				<div>
+				  <li ><a href = "blog">Blog</a> |</li>
+				</div>
+				<div>
+				  <li ><a href = "#contact">Contact</a> |</li>
+				</div>
+				<div>
+				  <li id = "port"><a href = "#">Portfolio</a>
+					  <ul id = "dropmenu">
+					  <section>
+					      
+						  <li><a href ="portfolio/photorating app" target = "_blank">Photorating app</a></li><hr>
+						  <li><a href ="portfolio/javascript calculator" target = "_blank">Javascript Calculator</a></li></li><hr>
+						  <li><a href ="portfolio/currency convertor" target = "_blank" >Currency Convertor</a></li>
+					  </section>
+					  </ul>
+				  </li>
+				</div>
+				
+			</div>
+		  </ul>
+		  
+	</nav><hr>
+	
+	<section id = "profile">
+	    <h2>Personal profile</h2>
+		<img src ="{%static 'assets/munetsi.jpg' %}" alt = "Profile">
+		<h3>Work Experience</h3>
+		  <p>6 Years as an Electrician.</p>
+		  
+		<h3>Technologies</h3>
+		<p>
+		  python programming,
+			dgango framework,
+			html,css,javascript,
+			jquery,
+			web framework - Bootstrap
+		  </p>
+		 
+		<h3>Academic Qualifications</h3>
+		  
+		    <p>-N4 Electrical power enginering</p>
+			<p>-Full Stack web development course</p>
+	</section><hr>
+	
+	<section id = "portfolio">
+	  <h3 class = "red">Portfolio:</h3>
+	  <a href ="portfolio/photorating app" target = "_blank"><img src = "{%static 'assets/photoapp.jpg'%}" alt = "photoapp"></a>
+	  <p>More Portfolio projects will be available soon!Please check later.</p>
+	</section><hr>
+	
+	<section id = "contact">
+	
+		<h3 class = "red">Contact me:</h3>
+		<form action = "#" method = "get">
+		  <input type = "text" value = "Name"><br><br>
+		  <input type = "text" value = "Surname"><br><br>
+		  <input type = "text" value = "Email"><br><br>
+		  <input type = "text" value = "Phone"><br><br>
+		  <textarea></textarea><br><br><br>
+		  <input type = "submit">
+		  
+		</form>
+	</section><br><br><br>
+	</main>
+	<script type = "text/javascript" src = "{%static 'homescript.js'%}"></script>
+  </body>
 </html>
