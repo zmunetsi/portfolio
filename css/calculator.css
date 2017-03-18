@@ -1,0 +1,59 @@
+#showcalculator{
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	color: gray;
+}
+.top{
+	text-align: center;
+}
+#numbers{
+	max-width: 236px;
+	border: 10px solid white;
+	border-radius: 4px;
+	margin: 0 auto;
+	
+}
+body {
+	background-color: black;
+}
+#numbers button {
+	margin: 2px;
+	border-radius: 4px;
+	width:50px;
+	height:50px;
+	font-size: 16px;
+}
+#display {
+
+	background-color: white;
+	margin: 5px 2px 5px 2px;
+	text-align: right;
+	border-radius: 3px;
+	height: 60px;
+	width: 212px;
+}
+#equals{
+	background-color: #ffff00;
+}
+#minus {
+	background-color:#00ffff;
+}
+#divide{
+	background-color:#00ff40;
+	
+}
+#clear {
+	width: 212px;
+	background-color: red;
+}
+.btntop{
+	text-align: center;
+}
+.hidebtn{
+	display: none;	
+}
+#container {
+	visibility: hidden;
+}

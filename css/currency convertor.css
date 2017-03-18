@@ -1,0 +1,18 @@
+#canvas{
+	width:900px;
+	background-image: url(background.jpg);
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	color: gray;
+	text-align: center;
+	text-decoration: underline;
+}
+form {
+	
+	padding:20px;
+}
+form input{
+	margin: 5px;
+}

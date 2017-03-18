@@ -1,0 +1,48 @@
+.app div {
+	display: block;
+	margin: 5px;
+
+}
+.app {
+	text-align: center;
+}
+button{
+	
+	margin:2px;
+}
+#imgbuttons{
+	margin: 0 auto;
+	max-width:284px;
+	border: 1px solid black;
+
+}
+.square {
+	height:40px;
+	width: 40px;
+    padding: auto;
+	border-radius: 50px;
+}
+#rateup{
+	background-color: blue;
+	color: white;
+}
+#ratedown{
+	background-color:red;
+	color: white;
+}
+.intro {
+	text-align: center;
+}
+#ratingbtn button {
+	border-radius: 6px;
+	font-weight: bold;
+}
+.nav li {
+	margin-right: 5px;
+}
+nav ul {
+	padding-bottom: 20px;
+}
+#comment {
+	display: inline;
+}
