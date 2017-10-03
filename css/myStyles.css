@@ -73,9 +73,7 @@ section.skills {
   text-align: center;
   margin-top: 50px;
 }
-section.skills img {
- border: 1px solid red;
-}
+
 
 /****/
 section.about-me {
@@ -220,7 +218,9 @@ footer p {
 }
 /**
 portfolio*/
-
+ section.portfolio img {
+   border: 1px solid red;
+}
 .portfolio .container .row {
   margin-top: 5px;
   text-align: center;
