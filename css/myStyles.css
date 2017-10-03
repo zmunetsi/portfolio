@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Maven+Pro');
 
+/*reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+
+/*navbar */
+
 
 .navbar {
   height: 64px;
@@ -225,22 +246,5 @@ portfolio*/
   margin-top: 5px;
   text-align: center;
 }
-/*reset*/
 
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-li {
-  text-decoration: none;
-}
-
-a {
-  list-style: none;
-}
-textarea:focus, input:focus {
-  outline: none;
-}
 
