@@ -247,9 +247,22 @@ portfolio*/
    padding: 0;
    margin: 15px;
 }
+
 .portfolio .container .row {
   margin-top: 5px;
   text-align: center;
+}
+
+#first-img{
+  border-right: 10px solid  #2eb398;
+}
+#second-img{
+}
+#third-img{
+}
+#forth-img{
+}
+#fifth-img{
 }
 
 
