@@ -240,7 +240,7 @@ footer p {
 /**
 portfolio*/
  section.portfolio  {
-   border: 1px solid red;
+   background-color: #808080;
 }
 .portfolio .container .row {
   margin-top: 5px;
