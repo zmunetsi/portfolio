@@ -240,7 +240,12 @@ footer p {
 /**
 portfolio*/
  section.portfolio  {
-   background-color: #808080;
+   background-color: #ffe6e6;
+}
+
+ section.portfolio img {
+   padding: 0;
+   margin: 15px;
 }
 .portfolio .container .row {
   margin-top: 5px;
