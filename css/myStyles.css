@@ -252,17 +252,10 @@ portfolio*/
   margin-top: 5px;
   text-align: center;
 }
-
-#first-img{
-
-}
-#second-img{
-}
-#third-img{
-}
-#forth-img{
-}
-#fifth-img{
+.top-row {
+  background-color: #2eb398;
 }
 
-
+.bottom-row {
+  background-color: #2eb398;
+}
