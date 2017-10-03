@@ -1,244 +1,69 @@
 
+body {
+	max-width: 500px;
+	margin: auto;
+	background-image: url("background.jpg")
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Maven+Pro');
-
-
-.navbar {
-  height: 64px;
-  background-color: #323232;
-  border-radius: 0;
-  border: none;
 }
-
-.navbar .container ul {
-  display: inline-block;
+h1,h2,h3,h4,h5,h6 {
+	font-family: Times New Roman;
+	font-style: italic;
 }
 
-.navbar .container ul li:first-child, .navbar .container ul li:last-child {
-  list-style: none;
-  display: inline;
+#contact {
+	text-align: center;	
 }
-.navbar .container {
-  height: 64px;
-  text-align: center;
-  padding-bottom: 10px;
+#profile {
+	text-align: center;
 }
-#nav-rule {
-  border-color: #e4e9eb;
+#portfolio{
+	text-align: center;
 }
-.logo {
-  position: relative;
-  top: 37px;
+#contact form input {
+	
+	border-top: none;
+	border-left: none;
 }
-.left, .right {
-  top: -55px;
-  position: relative;
+h2,.red {
+	color: red;
 }
-
-.left li {
-  margin-right: 10px;
+#profile img{
+	border-radius: 50%;
+	
 }
 
-.right li {
-  margin-left: 10px;
+nav ul{
+margin: auto;
+
+
 }
-nav li a:link, nav li a:visited {
-  text-decoration: none;
-  padding-bottom: 5px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: #fff;
-}
-nav li a:hover {
-  color: #2eaa91;
-  text-decoration: none;
-  border-bottom: 4px solid #fff;
+nav li {
+	list-style: none;
 }
 
-@media screen and (min-width: 0px) and (max-width: 720px) {
-  .left a {
+nav ul div{
+	display: inline-block;
+	
+	
+}
+#menu {
+	float: right;
+	margin: 0 30px;
+}
+#dropmenu{
     display: none;
-  }
-  .right a {
-    display: none;
-  }
-  img#port-image {
-    margin: auto;
-    padding-top: 7px;
-  }
-  .about-info {
-    text-align: center;
-  }
+	position : absolute;
+	background-color: gray;
+	font-size: 0;
+	padding: 10px;
 }
-/****/
-section.skills {
-  text-align: center;
-  margin-top: 50px;
+nav a {
+	text-decoration: none;
+}
+#logo{
+	font-family: cursive;
+	font-size: 16px;
+	text-shadow: 40px;
 }
 
-/****/
-section.about-me {
-  margin-top: 70px;
-  background-color: #2eb398;
-  min-height: 245px;
-}
 
-div.line {
-  margin: auto;
-  width: 50px;
-  border-bottom: 4px solid #000;
-}
-section.skills h1 {
-  margin-bottom: 10px;
- font-family: 'Maven Pro', sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  color: #000;
-}
-section.about-me h1, section.contact h1 {
- font-family: 'Maven Pro', sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  color: #fff;
-}
-section.about-me h2 {
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  color: #115446;
-}
-
-section.about-me p {
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #fff;
-}
-section.skills p {
-  margin-top: 10px;
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #000;
-}
-
-.about-info {
-  padding-left: 0;
-}
-
-img#about-image {
-  position: relative;
-  left: 20px;
-  padding-right: 0;
-  height: 245px;
-  padding: 7px 0 7px 0;
-  margin-right: 0;
-}
-
-section.contact {
-  min-height: 565px;
-  background-color: #323232;
-}
-
-section.contact form {
-  width: 100%;
-}
-
-section.contact fieldset {
-  margin-top: 12px;
-}
-section.contact  input, section.contact textarea {
-  font-size: 12px;
-  font-family: 'Lato', sans-serif;
-  background-color: #454545;
-  padding: 2px 15px;
-  width: 100%;
-  color: #fff;
-}
-section.contact input {
-  height: 30px;
-}
-section.contact h1 {
-  margin-bottom: 0;
-}
-
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-family: 'Maven Pro Regular', sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  color: #fff;
-}
-.contact hr {
-  border-color: #222222;
-}
-
-#btn-submit {
-  background-color: #2eb398;
-  float: right;
-  padding: 5px 12px;
-  font-size: 12px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  color: #fff;
-}
-
-footer {
-  height: 44px;
-  background-color: #222222;
-}
-footer .container {
-  height: 44px;
-  line-height: 44px;
-}
-
-footer p {
-  margin-bottom: 0;
-  color: #4d4b4b;
-  font-size: 14px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
-.contact div p {
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #fff;
-}
-.fa-cog {
-  color: #2eb398;
-}
-
-.glyphicon {
-  margin-right: 10px;
-  color: #2eb398;
-}
-.small-pg {
-  margin-top: 100px;
-}
-/**
-portfolio*/
-
-.portfolio .container .row {
-  margin-top: 5px;
-  text-align: center;
-}
-/*reset*/
-
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-li {
-  text-decoration: none;
-}
-
-a {
-  list-style: none;
-}
-textarea:focus, input:focus {
-  outline: none;
-}
