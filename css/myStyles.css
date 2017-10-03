@@ -244,6 +244,7 @@ portfolio*/
 }
 
  section.portfolio img {
+    background-color: #2eb398;
    padding: 0;
    margin: 15px;
 }
@@ -252,10 +253,4 @@ portfolio*/
   margin-top: 5px;
   text-align: center;
 }
-.top-row {
-  background-color: #2eb398;
-}
 
-.bottom-row {
-  background-color: #2eb398;
-}
