@@ -1,0 +1,98 @@
+
+body {
+  font-size: 20px;
+  color: #2d3c49;
+  font-family: "Quicksand", sans-serif;
+}
+
+img:not(.logo){
+  min-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.secondary-color {
+  color: #7d97ad;
+}
+
+/*header*/
+
+header {
+  margin-top: 2%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+hr {
+  background-color: #7d97ad;
+  height: 0.2em;
+}
+
+main.hero-image {
+  margin: 2% 0;
+}
+
+/*article*/
+
+article.app {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.app-heading {
+  font-weight: 600;
+  color: #2d3c49;
+}
+
+p.description {
+  color: #000;
+  padding: 10%;
+  position: absolute;
+  display: none;
+}
+
+.app:hover img {
+  opacity: 0.2;
+}
+
+.app:hover p {
+  display: block;
+}
+
+/*footer */
+
+footer {
+  min-height: 80px;
+  background-color: #02b3e4;
+  text-align: center;
+  padding: 2% 0;
+}
+
+footer a {
+  color: #fff;
+  margin: 1em;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+footer a:hover {
+  font-weight: 600;
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+/*media queries*/
+
+@media (max-width:990px) {
+  #profile-heading {
+    text-align: left;
+  }
+}

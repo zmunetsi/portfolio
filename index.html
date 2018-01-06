@@ -1,149 +1,92 @@
-
 <!DOCTYPE html>
 <html>
 
   <head>
-    <title>Webdeveloper Portfolio</title>
-	
-	<!--font awesome-->
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <!--bootstrap-->
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	 <link rel="stylesheet" type="text/css" href="css/myStyles.css">
-		<!--link to jquery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-	
+    <meta charset="utf-8">
+    <meta name="description" content="Front-End Web Developer Portfolio">
+    <meta name="keywords" content="web developer, frond-end web developer,web developer portfolio">
+    <meta name="author" content="Munetsi Zunguzira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- compiled and minified bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- compiled bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
-  
+
   <body>
-    <nav class="navbar ">
-  <div class="container">
-    <ul class="left">
-      <li><a href="#skills">PORTFOLIO</a></li>
-      <li><a href="#about">ABOUT</a></li>
-    </ul>
+    <div class="container">
 
-    <ul class="logo" <li>
-      <a href="#" ><img class="img img-responsive" id="logo" src="https://github.com/zmunetsi/my_images/blob/master/logo.png?raw=true" alt=""></a>
-      </li>
-    </ul>
+      <header class="row">
+        <div id="profile-logo" class="col-sm-2 col-md-3 col-lg-6">
+          <img class="img img-responsive logo" src="images/udacity-logo.png" alt="udacity logo">
+        </div>
+        <div id="profile-heading" class="col-sm-12 col-md-9 col-lg-6 text-right">
+          <h1 class="light">Munetsi Zunguzira</h1>
+          <h4 class="bold">Front-End Ninja</h4>
+        </div>
+      </header>
 
-    <ul class="right">
-      <li><a href="http://www.munetsiblog.com/" target = "_blank">BLOG</a></li>
-      <li><a href="#contact">GET IN TOUCH</a></li>
-    </ul>
+      <main class="hero-image">
+        <div class="row">
+          <div class="col-lg-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img img-responsive" src="images/hero-image.png" alt="hero image">
+          </div>
+        </div>
+      </main>
 
-  </div>
-  <div class="container">
-    <hr id="nav-rule">
-  </div>
-</nav>
-<section id = "skills" class="skills">
-  <div class="container">
-    <h1>I Got the Skills!</h1>
-    <div class="line">
+      <section class="featured-works">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="secondary-color">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <article class="app col-md-6 col-lg-4">
+            <p class="description"> Appify is a unique design.You will love it.</p>
+            <a href="#"><img id="appify" class="img img-responsive" src="images/appify.png" alt="appify"></a>
+            <h3 class="app-heading" id="appify-heading">APPIFY</h3>
+          </article>
+          <article class="app col-md-6 col-lg-4">
+            <p class="description">Sunflower is a unique design.You will love it.</p>
+            <a href="#"><img id="sunflower" class="img img-responsive" src="images/sunflower.png" alt="sunflower"></a>
+            <h3 class="app-heading" id="sunflower-heading">SUNFLOWER</h3>
+          </article>
+          <article class="app col-md-12 col-lg-4">
+            <p class="description">Bokeh is custom ecommerce website.You will love it.</p>
+            <a href="#"><img id="bokeh"  class="img img-responsive" src="images/bokeh.png" alt="bokeh"></a>
+            <h3 class="app-heading" id="bokeh-heading">BOKEH</h3>
+          </article>
+        </div>
+      </section>
+
+      <footer class="row">
+        <div class="col-xs-3">
+          <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+     </footer>
 
     </div>
-    <p>Take a look at what i have build, awesomeness <i class="fa fa-cog fa-spin fa-3x fa-fw"></i></p>
-
-  </div>
-</section>
-
-<section class="portfolio">
-  <div class="container">
-    <div class="port-first row">
-      <div class="col-md-4">
-
-      </div>
-      <a href = "http://www.munetsizunguzira.com/calculator"><img id = "first-img" class="top-row img img-responsive col-md-2"  src="images/calculator.png" alt="calculator"></a>
-       <a href = "http://www.munetsizunguzira.com/calculator"><img id = "second-img" class="top-row img img-responsive col-md-2"  src="images/calculator.png" alt="calculator"></a>
-      <div class="col-md-4">
-
-      </div>
-    </div>
-    <div class="port-second row">
-      <div class="col-md-3">
-
-      </div>
- <a href = "http://www.munetsizunguzira.com/photoratingapp"><img id = "third-img" class="bottom-row img img-responsive col-md-2"  src="images/photoapp.png" alt="photoapp"></a>
-  <a href = "https://codepen.io/zmunetsi/full/zEvNjM/"><img id = "forth-img" class="bottom-row img img-responsive col-md-2"  src="images/grocerylist.png" alt="groceryapp"></a>
-   <a href = "http://www.munetsizunguzira.com/photoratingapp"><img id = "fifth-img" class="bottom-row img img-responsive col-md-2"  src="images/photoapp.png" alt="photoapp"></a>
-      <div class="col-md-3">
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<section id= "about" class="about-me">
-  <div class="container">
-    <div class="row">
-      <div class="about-image col-md-3">
-        <img id="about-image" class="img img-responsive" src="https://github.com/zmunetsi/my_images/blob/master/munetsi.png?raw=true" alt="munetsi-image">
-      </div>
-
-      <div class="about-info col-md-9">
-        <h1>Munetsi Zunguzira</h1>
-        <h2>Full Stack Web Developer </h2>
-        <p> I love both the back end and frontend of web technologies, I build clean sleeky applications that you will love. <br> I also love building things in my spare time, a bit of an entrepreneural spirit is in me. <br> Python , Ruby and Javascript are
-          my favourite languages but i am confident that i can build anything in any language or framework when the need rises. <br> In my spare time i love spending time with my family, or attend hackthons and coding meetups.
-
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id = "contact" class="contact">
-
-  <div class="container">
-    <hr>
-    <div class="row">
-      <div class="col-md-7">
-        <h1>Get In Touch</h1>
-        <h2>In order to get in touch please use the contact form below..</h2>
-        <form class="" action="index.html" method="post">
-          <fieldset>
-            <input type="text" name="name" value="Name(Required)" required>
-          </fieldset>
-          <fieldset>
-            <input type="email" name="email" value="Email(Required)" required>
-          </fieldset>
-          <fieldset>
-            <input type="subject" name="" value="Subject">
-          </fieldset>
-          <fieldset>
-            <textarea name="name" rows="12">Write your message here...</textarea>
-          </fieldset>
-          <fieldset>
-            <button id="btn-submit" type="button" name="button">SEND</button>
-          </fieldset>
-
-
-        </form>
-
-      </div>
-
-      <div class="small-pg col-md-5">
-
-        <p><span class="glyphicon glyphicon-map-marker"></span>29 Eiffel Street Hammanskral SA</p>
-        <p><span class="glyphicon glyphicon-phone-alt"></span>000 000 0000</p>
-        <p><span class="	glyphicon glyphicon-envelope"></span>zunguziramunetsi@gmail.com</p>
-
-
-      </div>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="container">
-    <p>&copy Copyright 2017 with love by Munetsi</p>
-  </div>
-</footer>
-	<script type = "text/javascript" src = "scripts/homescript.js"></script>
   </body>
 </html>
-
